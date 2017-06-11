@@ -1,0 +1,62 @@
+.agenda {  }
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+
+/* Events */
+.agenda .agenda-events {  } 
+.agenda .agenda-events .agenda-event {  } 
+
+@media (max-width: 767px) {
+    
+}
+
+
+#custom_carousel .item {
+
+    color:beige;
+    background-color:#606060;
+    padding:20px 0;
+}
+#custom_carousel .controls{
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding:0;
+    margin:0;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    background:#ddd
+}
+#custom_carousel .controls li {
+    display: table-cell;
+    width: 1%;
+    max-width:90px
+}
+#custom_carousel .controls li.active {
+    background-color:#eee;
+    border-top:3px solid orange;
+}
+#custom_carousel .controls a small {
+    overflow:hidden;
+    display:block;
+    font-size:10px;
+    margin-top:5px;
+    font-weight:bold
+}
