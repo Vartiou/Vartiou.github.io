@@ -1,12 +1,12 @@
 .agenda {  }
 
 /* Dates */
-.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date { width: 120px; }
 .agenda .agenda-date .dayofmonth {
   width: 40px;
   font-size: 36px;
   line-height: 36px;
-  float: left;
+  position: left;
   text-align: right;
   margin-right: 10px; 
 }
