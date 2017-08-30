@@ -20,105 +20,109 @@
 
 <body >
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-           <a class="navbar-brand" href="index.html">
-        <img alt="Brand" src="favicon-96x96.png" height="53" width="53"  >
-      </a>
-
+    <nav class="navbar navbar-inverse navbar-fixed-top animate">
+        <div class="container navbar-more visible-xs">
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Buscar...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">Submit</button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="crianza.html">
+                        <span class="menu-icon glyphicon glyphicon-heart"></span>
+                        Crianza
+                    </a>
+                </li>
+                <li>
+                    <a href="bayas.html">
+                        <span class="menu-icon glyphicon glyphicon-leaf"></span>
+                        Bayas
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="menu-icon glyphicon glyphicon-fire"></span>
+                        Competitivo
+                    </a>
+                </li>
+                <li>
+                    <a href="economia.html">
+                        <span class="menu-icon glyphicon glyphicon-tags"></span>
+                        Farmeo de Objetos
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="menu-icon glyphicon glyphicon-yen"></span>
+                        Farmeo de NPC's
+                    </a>
+                </li>
+               
+            </ul>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Holy Warriors</a></li>
-             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liga Interna<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Rangos</a></li>
-                <li><a href="#">Gimnasios</a></li>
-                <li><a href="#">Elite 4</a></li>
-                
-                
-              </ul>
-            </li>
-            
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crianza <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                  <li><a href="crianza.html">¿Porque criar?</a></li>
-                <li><a href="crianza.html#iv">IV's, EV's y Naturalezas</a></li>
-                <li><a href="crianza.html#need">¿Qué necesito?</a></li>
-                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Pokémon</li>
-                <li><a href="#">Grupos Huevo</a></li>
-                <li><a href="#">Movimientos Huevo</a></li>
-                <li><a href="#">Ubicación de Pokémon</a></li>
-              </ul>
-            </li>
+        <div class="container">
+            <div class="navbar-header hidden-xs">
+                <a class="navbar-brand pokelog" href="index.html"><img  src="favicon-96x96.png" height="90" width="90"></a>
+            </div>
+             <div class="navbar-header hidden-xs " >
+                <a class="navbar-brand" href="index.html">Team Holy Warriors</a>
+            </div>
 
-             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Competitivo<span class="caret"></span></a>
+            <ul class="nav navbar-nav navbar-right mobile-bar">
+                <li>
+                    <a href="index.html">
+                        <span class="menu-icon glyphicon glyphicon-home"></span>
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="rangos.html">
+                        <span class="menu-icon glyphicon glyphicon-king"></span>
+                        <span class="hidden-xs">Rangos</span>
+                        <span class="visible-xs">Rangos</span>
+                    </a>
+                </li>
+              <li class="dropdown hidden-xs">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guías<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">¿Porque ser competitivo?</a></li>
-                <li><a href="#">Entrenamiento</a></li>
-                <li><a href="#">Movimientos</a></li>
-                <li><a href="#">Tutores</a></li>
-                 <li><a href="#">Consejos</a></li>
+                <li><a href="crianza.html"><span class="menu-icon glyphicon glyphicon-heart"></span> Crianza</a></li>
+                <li><a href="bayas.html"><span class="menu-icon glyphicon glyphicon-leaf"></span> Bayas</a></li>
+                <li><a href="competitivo.html"><span class="menu-icon glyphicon glyphicon-fire"></span> Competitivo</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Tiers</li>
-                <li><a href="#">Uber</a></li>
-                <li><a href="#">OU</a></li>
-                <li><a href="#">UU</a></li>
-                <li><a href="#">NU</a></li>
-                <li><a href="#">Copa Fantasía</a></li>
-              </ul>
-            </li>
-          
-
-          <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Farmeo<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                 <li><a href="economia.html">Requisitos</a></li>
-                <li><a href="economia.html#Como">Como Farmear</a></li>
-                 <li><a href="economia.html#Ubicaciones">Ubicaciones</a></li>
-             
+                <li class="dropdown-header">Farmeo</li>
+                <li><a href="economia.html"> <span class="menu-icon glyphicon glyphicon-tags"></span> Objetos</a></li>
+                 <li><a href="npc.html"> <span class="menu-icon glyphicon glyphicon-yen"></span> NPC's</a></li>
                 
               </ul>
             </li>
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bayas<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="bayas.html">¿Que son las bayas?</a></li>
-                <li><a href="bayas.html#Requisitos">Requisitos</a></li>
-                <li><a href="bayas.html#Ubicaciones">Ubicaciones</a></li>
-                <li><a href="bayas.html#Cultivo">Cultivo de Bayas</a></li>
-                 <li><a href="bayas.html#Bayas">Tipos de Baya</a></li>
+                <li>
+                    <a href="recursos.html">
+                        <span class="menu-icon glyphicon glyphicon-info-sign"></span>
+                        Recursos
+                    </a>
+                </li>
                 
-              </ul>
-            </li>
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vanidades<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Pokémon Shiny/Variocolor</a></li>
-                <li><a href="#">Cosméticos</a></li>
-                <li><a href="#">Mods de cliente</a></li>
-                
-              </ul>
-            </li>
-
-
-          </ul>
-          
-        </div><!--/.nav-collapse -->
-      </div>
+                <li>
+                    <a href="eventos.html">
+                        <span class="menu-icon glyphicon glyphicon-calendar"></span>                     
+                        <span class="hidden-xs">Eventos</span>
+                        <span class="visible-xs">Eventos</span>
+                    </a>
+                </li>
+                <li class="visible-xs">
+                    <a href="#navbar-more-show">
+                        <span class="menu-icon glyphicon glyphicon-menu-hamburger"></span>
+                        Guías
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
 <div class="container page-header">
@@ -229,7 +233,7 @@ Las bayas son items que pueden variar en uso y en efectos dentro y/o fuera de un
         <!-- End Carousel Inner -->
         <div class="controls">
             <ul class="nav">
-                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><img src="images/egg_by_poketrainermanro-d6oumni.png" width="50" height="50"><small>Crianza</small></a></li>
+                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="crianza.html"><img src="images/egg_by_poketrainermanro-d6oumni.png" width="50" height="50"><small>Crianza</small></a></li>
                 <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><img src="images/tumblr_n7eiddo5YD1qefxa7o1_500.png" width="50" height="50"><small>Bayas</small></a></li>
                 <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><img src="images/gold.png" width="50" height="50"><small>Economia</small></a></li>
                 <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="images/Pokeball-PNG-Image.png" width="50" height="50"><small>Competitivo</small></a></li>
@@ -240,6 +244,26 @@ Las bayas son items que pueden variar en uso y en efectos dentro y/o fuera de un
 </div>
 
 <hr>
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+var disqus_config = function () {
+this.page.url ="https://vartiou.github.io/";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "https://teamholywarriors.disqus.com/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://teamholywarriors.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
 
 <footer>
     <h4><small>Developed by Oscar Pimentel. Visit my <a href="https://github.com/Vartiou/">Github</a></small></h4>
@@ -258,6 +282,8 @@ Las bayas son items que pueden variar en uso y en efectos dentro y/o fuera de un
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="js/calendar.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+
     
 </body>
 </html>
