@@ -1,2 +1,2 @@
 # ladholywarriors.github.io
-Test website of an mmo gme
+Test website of an mmo game
